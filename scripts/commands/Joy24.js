@@ -16,9 +16,9 @@ handleEvent: function({ api, event, client, __GLOBAL }) {
 	var { threadID, messageID } = event;
   const content = event.body ? event.body : '';
   const body = content.toLowerCase();
-	if (body.indexOf(" ")==0 || body.indexOf(" ")==0 || body.indexOf(" ")==0 || body.indexOf("😴")==0) {
+	if (body.indexOf(" ")==0 || body.indexOf("jan")==0 || body.indexOf(" ")==0 || body.indexOf("😴")==0) {
 		var msg = {
-				body: "পৃথিবীতে প্রত্যেকটা মানুষের\nহৃদয়ে ব্যথা আছে\nশুধু প্রকাশ করার ধরন টা আলাদা….!.!\n\n𝐌𝐃 𝐉𝐔𝐁𝐀𝐄𝐃 𝐀𝐇𝐌𝐄𝐃 𝐉𝐎𝐘",
+				body: "পৃথিবীতে প্রত্যেকটা মানুষের\nহৃদয়ে ব্যথা আছে\nশুধু প্রকাশ করার ধরন টা আলাদা….!.!\n\nBOSS~ASHIK",
 				attachment: fs.createReadStream(__dirname + `/Joy/efa3.mp3`)
 			}
 			api.sendMessage( msg, threadID, messageID);
