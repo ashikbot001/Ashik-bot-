@@ -1,4 +1,4 @@
-m odule.exports.config = {
+module.exports.config = {
   name: "approve",
   version: "2.0.0",
   permission: 0,
